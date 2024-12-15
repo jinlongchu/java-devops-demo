@@ -11,9 +11,9 @@ pipeline{
             steps{
                 mail bcc: '', body: 'ddddd', cc: '', from: '', replyTo: '',
                 subject: 'ddd', to: 'jlongc89@gmail.com'
-                echo "$hello"
+                echo "hello"
                 echo "bianyi..."
-                echo "${world}"
+                echo "{world}"
 
             }
         }
