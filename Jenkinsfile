@@ -9,8 +9,7 @@ pipeline{
     stages{
         stage('代码编译'){
             steps{
-                mail bcc: '', body: 'ddddd', cc: '', from: '', replyTo: '',
-                subject: 'ddd', to: 'jlongc89@gmail.com'
+
                 echo "hello"
                 echo "bianyi..."
                 echo "{world}"
