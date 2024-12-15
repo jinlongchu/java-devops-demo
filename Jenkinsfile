@@ -13,6 +13,7 @@ pipeline{
                 echo "hello"
                 echo "bianyi..."
                 echo "{world}"
+                sh 'printenv'
 
             }
         }
