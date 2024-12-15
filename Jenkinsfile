@@ -13,6 +13,7 @@ pipeline{
                 subject: 'ddd', to: 'jlongc89@gmail.com'
                 echo "$hello"
                 echo "bianyi..."
+                echo "${world}"
 
             }
         }
